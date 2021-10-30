@@ -1,0 +1,16 @@
+#first time setup
+1. git config --global user.name ""
+2. git config --global user.email ""
+
+#First commit to github
+1. git init
+2. git add . 
+3. git commit -m "added content"
+4. git branch -M main
+5. git remote add origin https://url
+6. git push -u origin main
+
+#update already existing repository
+1. git add . 
+2. git commit -m "added content"
+3. git push -u origin main
