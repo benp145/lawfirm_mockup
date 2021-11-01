@@ -1,0 +1,58 @@
+.row-jb {
+    margin-left: 20px;
+}
+
+.jbbox {
+    border: none;
+    padding-left: 10px;
+    padding-top: 6px;
+    width: 70%;
+    height: 310px;
+    color: white;
+    background-image: linear-gradient(#913531, #bd443d, #913531)
+}
+
+.linejb {
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.listjb {
+    flex: 1 0 25%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.tablejb1 {
+    grid-area: span;
+}
+
+.tablejb2 {
+    grid-area: span;
+}
+
+.left, .right {
+    width: 20%;
+}
+
+.middle {
+    width: 20%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.what-pic {
+    float: left;
+    width: 50%;
+    padding: 5px 5px;
+}
+
