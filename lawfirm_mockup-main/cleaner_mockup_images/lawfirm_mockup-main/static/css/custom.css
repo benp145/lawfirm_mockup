@@ -1,0 +1,37 @@
+body {
+    background-image: url("../images/nza_background.jpg");
+}
+
+#top-nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: auto;
+
+}
+
+.nav-item {
+    
+    padding: 0 30px;
+}
+
+#last-one {
+    border-right: none;
+}
+
+a {
+    color: black;
+}
+
+#bottom-nav {
+    border-top: 1px solid black;
+}
+
+#bottom-nav .nav-item {
+    padding: 0 10px;
+}
+
+.vl {
+  border-left: 1px solid black;
+  height: 2px;
+  align-items: center;
+}
